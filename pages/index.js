@@ -11,7 +11,6 @@ export default function Home() {
         'success',
         'danger',
         'warning',
-        'info',
         'light',
         'dark',
       ].map((variant, idx) => (
