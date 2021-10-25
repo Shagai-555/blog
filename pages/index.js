@@ -8,13 +8,15 @@ import {
   Image,
   Card,
   NavLink,
-} from 'react-bootstrap'
+} from 'react-bootstrap';
+
+
 export default function Home() {
   return (
     <Container>
-      <Navbar className="fj-navbar fj-nav-base" bg="transparent" expand="lg">
+      <Navbar className="fj-navbar fj-nav-base" bg="transparent" expand="lg" >
         <Navbar.Brand className="fj-navbar-brand">
-          <a href="#">1234 БЛОГ</a>
+          <a href="#">Шагай БЛОГ</a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -39,7 +41,7 @@ export default function Home() {
               />
               <Media.Body>
                 <h5 className="font-weight-bold mb-0">
-                  shagai.mn - Онлайн видео сургалт
+                  shai.mn - Онлайн видео сургалт
                 </h5>
                 <p className="welcome-text">
                   Бид програмчлалын технолгийн чиглэлээр төрөл бүрийн
